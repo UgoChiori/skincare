@@ -21,7 +21,7 @@ export default function Home(): JSX.Element {
           />
 
         </div>
-        <button className="bg-[#CEFF00] text-slate-800 font-bold uppercase text-1xl lg:text-[20px] px-4 py-2 rounded-full hover:bg-slate-800 hover:text-[#CEFF00] ease-in duration-300">
+        <button className="bg-[#f9a8d4] text-slate-800 font-bold uppercase text-1xl lg:text-[20px] px-4 py-2 rounded-full hover:bg-slate-800 hover:text-[#CEFF00] ease-in duration-300">
           SHOP NOW
         </button>
       </div>
