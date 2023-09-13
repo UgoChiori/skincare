@@ -75,7 +75,7 @@ export default function Signup(): JSX.Element {
             type="text"
             name="name"
             id="name"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Name"
             value={name}
             onChange={handleChange}
@@ -86,7 +86,7 @@ export default function Signup(): JSX.Element {
             type="text"
             name="userName"
             id="userName"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Username"
             value={userName}
             onChange={handleChange}
@@ -97,7 +97,7 @@ export default function Signup(): JSX.Element {
             type="email"
             name="email"
             id="email"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Email"
             value={email}
             onChange={handleChange}
@@ -108,7 +108,7 @@ export default function Signup(): JSX.Element {
             type="password"
             name="password"
             id="password"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Password"
             value={password}
             onChange={handleChange}
@@ -120,7 +120,7 @@ export default function Signup(): JSX.Element {
             type="password"
             name="confirmPassword"
             id="confirmPassword"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Confirm Password"
             value={confirmPassword}
             onChange={handleChange}
@@ -129,13 +129,13 @@ export default function Signup(): JSX.Element {
           />
           <button
             type="submit"
-            className="bg-[#CEFF00] text-slate-800 font-md uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#CEFF00] ease-in duration-300 m-auto rounded-md"
+            className="bg-[#f9a8d4] text-slate-800 font-md uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#f9a8d4] ease-in duration-300 m-auto rounded-md"
           >
             Sign Up
           </button>
           <p className="text-center mt-4">
             Already have an account?{" "}
-            <a href="#" className="text-[#CEFF00]">
+            <a href="#" className="text-[#f9a8d4]">
               Login
             </a>
           </p>
@@ -203,7 +203,7 @@ export default function Signup(): JSX.Element {
 //             type="text"
 //             name="name"
 //             id="name"
-//             className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+//             className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
 //             placeholder="Name"
 //             required
 //           />
@@ -212,7 +212,7 @@ export default function Signup(): JSX.Element {
 //             type="text"
 //             name="userName"
 //             id="userName"
-//             className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+//             className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
 //             placeholder="Username"
 //             required
 //           />
@@ -221,7 +221,7 @@ export default function Signup(): JSX.Element {
 //             type="email"
 //             name="email"
 //             id="email"
-//             className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+//             className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
 //             placeholder="Email"
 //             required
 //           />
@@ -230,7 +230,7 @@ export default function Signup(): JSX.Element {
 //             type="password"
 //             name="password"
 //             id="password"
-//             className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+//             className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
 //             placeholder="Password"
 //             minLength={6}
 //             required
@@ -240,18 +240,18 @@ export default function Signup(): JSX.Element {
 //             type="password"
 //             name="confirmPassword"
 //             id="confirmPassword"
-//             className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+//             className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
 //             placeholder="Confirm Password"
 //             minLength={6}
 //             required
 //           />
           
-//           <button className="bg-[#CEFF00] text-slate-800 font-md uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#CEFF00] ease-in duration-300 m-auto rounded-md">
+//           <button className="bg-[#f9a8d4] text-slate-800 font-md uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#f9a8d4] ease-in duration-300 m-auto rounded-md">
 //             Sign Up
 //           </button>
 //           <p className="text-center mt-4">
 //             Already have an account?{" "}
-//             <a href="#" className="text-[#CEFF00]">
+//             <a href="#" className="text-[#f9a8d4]">
 //               Login
 //             </a>
 //           </p>

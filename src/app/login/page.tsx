@@ -11,7 +11,7 @@ export default function Login(): JSX.Element {
             type="text"
             name="userName"
             id="userName"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Username"
           />
           <label htmlFor="password">Password</label>
@@ -19,7 +19,7 @@ export default function Login(): JSX.Element {
             type="password"
             name="password"
             id="password"
-            className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+            className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
             placeholder="Password"
           />
           <div className="flex justify-between items-center">
@@ -28,22 +28,22 @@ export default function Login(): JSX.Element {
                 type="checkbox"
                 name="rememberMe"
                 id="rememberMe"
-                className="border-2 border-[#CEFF00] text-black rounded-md font-medium px-4 py-2 mb-4"
+                className="border-2 border-[#f9a8d4] text-black rounded-md font-medium px-4 py-2 mb-4"
               />
               <label htmlFor="rememberMe" className="ml-2">
                 Remember me
               </label>
             </span>
-            <a href="#" className="text-[#CEFF00]">
+            <a href="#" className="text-[#f9a8d4]">
               Forgot password?
             </a>
           </div>
-          <button className="bg-[#CEFF00] text-slate-800 font-bold uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#CEFF00] ease-in duration-300 m-auto rounded-md">
+          <button className="bg-[#f9a8d4] text-slate-800 font-bold uppercase text-1xl lg:text-[20px] w-24 h-12 md:w-20 md:h-10 hover:bg-slate-800 hover:text-[#f9a8d4] ease-in duration-300 m-auto rounded-md">
             Login
           </button>
           <p className="text-center mt-4">
             Don&apos;t have an account?{" "}
-            <a href="#" className="text-[#CEFF00]">
+            <a href="#" className="text-[#f9a8d4]">
               Sign up
             </a>
           </p>
